@@ -1,0 +1,17 @@
+# Environment-specific settings - never commit
+ADHealthCheck.config.psd1
+*.cred
+
+# Generated output
+Reports/
+Logs/
+ADHealth_*.html
+ADHealth_*.csv
+ADBackup_*.log
+
+# Editors / OS
+.vscode/
+*.swp
+Thumbs.db
+desktop.ini
+.DS_Store
